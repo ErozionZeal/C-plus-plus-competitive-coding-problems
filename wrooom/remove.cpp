@@ -36,8 +36,6 @@
 #define all(a) a.begin(),a.end()
 #define ld long double
 using namespace std;
-// For ordered_set
-using namespace __gnu_pbds;
 template <typename T>
 using ord_set = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;
 const ll maxn = 1e5;
